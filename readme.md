@@ -1,7 +1,7 @@
 # retro-remix-catcher
 
-A tiny [CLI][CLI] script for collecting audio file links from retro remix
-websites and store them as [M3U][M3U] playlist file.
+A tiny CLI script for collecting audio file links from retro remix
+websites and store them as M3U playlist file.
 
 
 ## Installation
@@ -88,8 +88,3 @@ Generated M3U files from the usage examples above:
 [AmigaRemix]: https://amigaremix.com
 [ExampleM3U_AmigaRemix]: ./example-files/amigaremix.com.m3u
 [ExampleM3U_RKO]: ./example-files/remix.kwed.org.m3u
-
-
-<!-- Appendix -->
-[CLI]: https://en.wikipedia.org/wiki/Command-line_interface
-[M3U]: https://en.wikipedia.org/wiki/M3U

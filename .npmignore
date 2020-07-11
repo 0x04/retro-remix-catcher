@@ -1,6 +1,7 @@
 example-files
 .babelrc
 .gitattributes
+.github
 .gitignore
 .editorconfig
 package-lock.json
