@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "retro-remix-catcher",
+  "name": "@0x04/retro-remix-catcher",
   "repository": "git@github.com:0x04/retro-remix-catcher",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
