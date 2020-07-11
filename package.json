@@ -1,0 +1,30 @@
+{
+  "author": {
+    "email": "ok@0x04.de",
+    "name": "Oliver Kühn"
+  },
+  "bin": {
+    "retro-remix-catcher": "index.js"
+  },
+  "dependencies": {
+    "commander": "^5.1.0"
+  },
+  "description": "",
+  "engines": {
+    "node": ">= 8.10"
+  },
+  "homepage": "https://github.com/0x04/retro-remix-catcher",
+  "keywords": [
+    "cli",
+    "retro",
+    "remix"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "retro-remix-catcher",
+  "repository": "git@github.com:0x04/retro-remix-catcher",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
