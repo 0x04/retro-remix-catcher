@@ -1,6 +1,8 @@
 # retro-remix-catcher
 
-A tiny CLI script for collecting audio file links from retro remix
+![retro-remix-catcher-logo](assets/logo.png)
+
+A tiny CLI script for collecting audio file links from retro game remix
 websites and store them as M3U playlist file.
 
 
@@ -47,7 +49,7 @@ Other sites may also work.
 
 #### [amigaremix.com][AmigaRemix]
 
-Get pages from `1` to `32` and save it as "[atari.remix.org.m3u][ExampleM3U_AmigaRemix]".
+Get pages from `1` to `32` and save it as "[atari.remix.org.m3u][ExampleM3U_AmigaRemix]":
 
 ```
 $ retro-remix-catcher -h amigaremix.com -p '/remixes/${page}/' -s 1 -e 32 amigaremix.com.m3u
@@ -55,7 +57,7 @@ $ retro-remix-catcher -h amigaremix.com -p '/remixes/${page}/' -s 1 -e 32 amigar
 
 #### [remix.kwed.org][RKO]
 
-Get pages from `1` to `15`, exclude every filename that contains "(extract)" and save it as "[remix.kwed.org.m3u][ExampleM3U_RKO]".  
+Get pages from `1` to `15`, exclude every filename that contains "(extract)" and save it as "[remix.kwed.org.m3u][ExampleM3U_RKO]":
 
 ```
 $ retro-remix-catcher -h remix.kwed.org -p '/?page=${page}' -s 1 -e 15 -x '\(extract\)' remix.kwed.org.m3u

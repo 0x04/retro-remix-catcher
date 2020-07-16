@@ -1,2 +1,5 @@
 # Define defaults
 * text eol=lf
+
+# Turn off normalisation for PNGs
+*.png binary
