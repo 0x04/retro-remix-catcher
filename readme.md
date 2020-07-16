@@ -29,6 +29,7 @@ Options:
   -s, --start <n>          start page (default: "1")
   -e, --end <n>            end page
   -x, --exclude <exclude>  regex to exclude specific links
+  -t, --types <types>      comma separated list of file types (default: "mp3")
   --ssl                    use ssl (default: true)
   --no-ssl                 don't use ssl
   --help                   display help for command

@@ -16,6 +16,7 @@ program
   .option('-s, --start <n>', 'start page', '1')
   .option('-e, --end <n>', 'end page')
   .option('-x, --exclude <exclude>', 'regex to exclude specific links')
+  .option('-t, --types <types>', 'comma separated list of file types', 'mp3')
   .option('--ssl', 'use ssl', true)
   .option('--no-ssl', 'don\'t use ssl')
   .parse(process.argv);
@@ -33,7 +34,8 @@ const defaults = {
 function findMP3Links(content)
 {
   let result = [];
-  let regExp = /href="([^"]+\.mp3)"/gi;
+  let types = program.types.split(/,/).map(type => type.trim());
+  let regExp = new RegExp(`href="([^"]+\.(?:${types.join('|')}))"`, 'gi');
   let matches = null;
   let exclude = (program.exclude)
     ? new RegExp(program.exclude)
