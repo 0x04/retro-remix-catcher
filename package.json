@@ -9,7 +9,7 @@
   "dependencies": {
     "commander": "^5.1.0"
   },
-  "description": "",
+  "description": "A tiny CLI script for collecting audio file links from retro game remix websites and store them as M3U playlist file.",
   "engines": {
     "node": ">= 8.10"
   },
@@ -26,5 +26,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
